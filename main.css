@@ -9,9 +9,6 @@ body {
 	background-size: cover;
 }
 
-header {
-	font-size: 3rem;
-}
 h1 {
 	text-align: center;
 	background-color: rgba(232,18,63,.7);
@@ -19,6 +16,7 @@ h1 {
 	padding-bottom: 30px;
 	border-radius: 10px;
 	font-family: 'strawberries', sans-serif;
+	font-size: 5rem;
 }
 img {
 	float: right;
@@ -46,8 +44,8 @@ input[type=text] {
 input[type=submit] {
 	border-radius: 5px;
 	font-size: 1.5rem;
-	font-family: 'Schoolbell', cursive;
 	background-color: rgb(232,18,63);
+	font-family: 'Schoolbell', cursive;
 }
 ul {
 	width: 400px;
@@ -57,8 +55,8 @@ ul {
 li {
 	list-style: none;
 	margin-bottom: 10px;
-	font-family: 'Schoolbell', cursive;
 	font-size: 1.5rem;
+	font-family: 'Schoolbell', cursive;
 }
 .strikethrough {
 	text-decoration: line-through;
@@ -68,6 +66,18 @@ button {
 	margin: 0 auto;
 	border-radius: 5px;
 	font-size: 1.5rem;
-	font-family: 'Schoolbell', cursive;
 	background-color: rgb(232,18,63);
+	font-family: 'Schoolbell', cursive;
+}
+
+@media screen and max-width: 500px {
+	h1 {
+		font-size: 3rem;
+	}
+	section {
+		width: 350px;
+	}
+	li {
+		width: 350px;
+	}
 }
