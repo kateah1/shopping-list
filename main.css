@@ -1,29 +1,39 @@
-body {
-
+@font-face {
+	font-family: strawberries;
+	src: url("strawberries.ttf");
 }
 
 header {
 	outline: 1px solid red;
+	font-size: 3rem;
 }
 h1 {
-
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-family: 'strawberries', sans-serif;
 }
 img {
-
+	float: right;
 }
 
 section {
 	outline: 1px solid red;
+	font-family: 'Schoolbell', cursive;
+	font-size: 1.5rem;
 }
 form {
-
+	text-align: center;
 }
 ul {
-
+	width: 250px;
+	margin: 30px auto 50px auto;
 }
 li {
-
+	list-style: none;
+	margin-bottom: 10px;
 }
 button {
-
+	display: block;
+	margin: 0 auto;
 }
