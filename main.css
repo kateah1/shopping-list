@@ -3,37 +3,71 @@
 	src: url("strawberries.ttf");
 }
 
+body {
+	background-image: url("strawberries.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 header {
-	outline: 1px solid red;
 	font-size: 3rem;
 }
 h1 {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	background-color: rgba(232,18,63,.7);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
 	font-family: 'strawberries', sans-serif;
 }
 img {
 	float: right;
+	width: 30px;
+	height: 30px;
 }
 
 section {
-	outline: 1px solid red;
-	font-family: 'Schoolbell', cursive;
-	font-size: 1.5rem;
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(156,156,156,.7);
+	border-radius: 5px;
 }
 form {
 	text-align: center;
 }
+input[type=text] {
+	border-radius: 5px;
+	height: 30px;
+	font-size: 1.5rem;
+	font-family: 'Schoolbell', cursive;
+}
+input[type=submit] {
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-family: 'Schoolbell', cursive;
+	background-color: rgb(232,18,63);
+}
 ul {
-	width: 250px;
+	width: 400px;
 	margin: 30px auto 50px auto;
+	padding-left: 0;
 }
 li {
 	list-style: none;
 	margin-bottom: 10px;
+	font-family: 'Schoolbell', cursive;
+	font-size: 1.5rem;
+}
+.strikethrough {
+	text-decoration: line-through;
 }
 button {
 	display: block;
 	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-family: 'Schoolbell', cursive;
+	background-color: rgb(232,18,63);
 }
