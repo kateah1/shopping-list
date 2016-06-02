@@ -2,7 +2,14 @@
 	font-family: strawberries;
 	src: url("strawberries.ttf");
 }
-
+@font-face {
+	font-family: cupcakes;
+	src: url("cupcakes.ttf");
+}
+@font-face {
+	font-family: donuts;
+	src: url("donuts.ttf");
+}
 body {
 	background-image: url("strawberries.jpeg");
 	background-repeat: no-repeat;
