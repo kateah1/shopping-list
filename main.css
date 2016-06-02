@@ -1,17 +1,17 @@
 @font-face {
 	font-family: strawberries;
-	src: url("strawberries.ttf");
+	src: url("fonts/strawberries.ttf");
 }
 @font-face {
 	font-family: cupcakes;
-	src: url("cupcakes.ttf");
+	src: url("fonts/cupcakes.ttf");
 }
 @font-face {
 	font-family: donuts;
-	src: url("donuts.ttf");
+	src: url("fonts/donuts.ttf");
 }
 body {
-	background-image: url("strawberries.jpeg");
+	background-image: url("images/strawberries.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
