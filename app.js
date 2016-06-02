@@ -48,4 +48,8 @@ $(document).ready(function() {
 		//remove <li> below
 		$("li").remove();
 	});
+
+	$("li").toggle(function() {
+		$(this).css('text-decoration' : 'line-through');
+	})
 });
