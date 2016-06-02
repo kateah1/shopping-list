@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("h1").hover(function() {
+	/*$("h1").hover(function() {
 		$(this).css('cursor', 'pointer');
 	})
 	.click(function() {
@@ -20,12 +20,32 @@ $(document).ready(function() {
 		$("input[type=submit]").css({'background-color' : 'rgb(62,130,255)'});
 		$("button").css({'background-color' : 'rgb(62,130,255)'});
 	});
+	*/
 	
-	/*$("input[type=submit").hover(function() {
-		$(this).css('cursor', 'pointer');
+	$("input[type=submit").mouseenter(function() {
+		$(this).css({
+			'cursor', 'pointer',
+			'background-color' : 'rgb(232,70,85)',
+		});
+	})
+	.mouseleave(function () {
+		$(this).css({
+			'cursor', 'inital',
+			'background-color' : 'inital',
+		});
+	});
+
+	document.getElementById("add").onclick = function() {
+		var text = document.getElementById("item").value;
+		var li = "<li>" + text + "</li>";
+		document.getElementById("list").appendChild(li);
+	};
+
+	$("img").hover(function()	{
+		$(this).css('cursor', 'pointer',);
 	})
 	.click(function() {
-		$("ul").append("<li> + item + </li>");
-	})*/
-
+		//remove <li> below
+		$("li").remove();
+	});
 });
