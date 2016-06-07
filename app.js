@@ -46,10 +46,10 @@ $(document).ready(function() {
 		$(this).css("cursor", "default");
 	});
 
-//take input val and add to ul when clicked on submit input
+//take text input val and add li to ul when click submit input
 
 	$("input[type=submit]").click(function () {
-		$("ul").append('<li> + text + </li>')
-			var text = $("input[type=text]").val();
+		$("ul").append("<li>text</li>")
+			var text = ("input[type=text]").val();
 	});		
 });
