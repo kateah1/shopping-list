@@ -56,9 +56,7 @@ li {
 	margin-bottom: 10px;
 	font-size: 1.5rem;
 	font-family: 'Schoolbell', cursive;
-}
-.strikethrough {
-	text-decoration: line-through;
+	text-decoration: none;
 }
 button {
 	display: block;

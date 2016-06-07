@@ -52,4 +52,29 @@ $(document).ready(function() {
 		$("ul").append("<li>text</li>")
 			var text = ("input[type=text]").val();
 	});		
+
+//toggle strikethrough when clicking on <li>
+
+	$("li").click(function () {
+		if($(this).css("text-decoration") === "none") {
+			$(this).css("text-decoration", "line-through");
+		}
+		else {
+			$(this).css("text-decoration", "none");
+		}
+	});
+
+//delete li and trashcan icon when click on trashcan icon
+
+	$("img").click(function () {
+		$(this).parent().remove();
+	});
+
+//delete all <li> when click on button
+
+	$("button").click(function () {
+		$("li").remove();
+	});
+
+
 });
