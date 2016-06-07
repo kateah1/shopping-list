@@ -1,28 +1,20 @@
 @font-face {
-	font-family: strawberries;
-	src: url("fonts/strawberries.ttf");
-}
-@font-face {
-	font-family: cupcakes;
-	src: url("fonts/cupcakes.ttf");
-}
-@font-face {
 	font-family: donuts;
 	src: url("fonts/donuts.ttf");
 }
 body {
-	background-image: url("images/strawberries.jpeg");
+	background-image: url("images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 h1 {
 	text-align: center;
-	background-color: rgba(232,18,63,.7);
+	background-color: rgba(62,130,255,.7);
 	padding-top: 30px;
 	padding-bottom: 30px;
 	border-radius: 10px;
-	font-family: 'strawberries', sans-serif;
+	font-family: 'donuts', sans-serif;
 	font-size: 5rem;
 }
 img {
@@ -51,7 +43,7 @@ input[type=text] {
 input[type=submit] {
 	border-radius: 5px;
 	font-size: 1.5rem;
-	background-color: rgb(232,18,63);
+	background-color: rgb(62,130,255);
 	font-family: 'Schoolbell', cursive;
 }
 ul {
@@ -73,7 +65,7 @@ button {
 	margin: 0 auto;
 	border-radius: 5px;
 	font-size: 1.5rem;
-	background-color: rgb(232,18,63);
+	background-color: rgb(62,130,255);
 	font-family: 'Schoolbell', cursive;
 }
 
