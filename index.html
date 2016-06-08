@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/6be844a0bf.js"></script>
 </head>
 <body>
 	<header>
@@ -13,33 +14,10 @@
 	</header>
 
 	<section>
-		<form>
-			<input type="text" max-length="40" size="30" placeholder="enter item">
-			<input type="submit" value="Submit">
-		</form>
-		<ul>
-			<li>	
-				<img src="https://cdn3.iconfinder.com/data/icons/cleaning-icons/512/Trash_Can-512.png">
-				<p>milk</p>
-			</li>
-			<li>	
-				<img src="https://cdn3.iconfinder.com/data/icons/cleaning-icons/512/Trash_Can-512.png">
-				<p>eggs<p>
-			</li>
-			<li>
-				<img src="https://cdn3.iconfinder.com/data/icons/cleaning-icons/512/Trash_Can-512.png">
-				<p>apples</p>
-			</li>
-			<li>	
-				<img src="https://cdn3.iconfinder.com/data/icons/cleaning-icons/512/Trash_Can-512.png">
-				<p>bananas</p>
-			</li>
-			<li>
-				<img src="https://cdn3.iconfinder.com/data/icons/cleaning-icons/512/Trash_Can-512.png">
-				<p>spinach</p>
-			</li>
-		</ul>
-		<button>Clear All</button>
+		<input id="user-input" type="text" max-length="40" size="30" placeholder="enter item">
+		<button id="submit-button">Add</button>
+		<ul id="list"></ul>
+		<button id="clear-all">Clear All</button>
 	</section>
 	
 	<script src="https://code.jquery.com/jquery.min.js"></script>
